@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', createPuzzle);
 let puzzleNumbers = [1, 2, 3, 4, 5, 6, 7, 8, ""];
 const gridSize = 3;
 let moveCounter = 0;
-const maxMoves = 20; // Set the maximum number of moves
+const maxMoves = 50; // Set the maximum number of moves
 
 function createPuzzle() {
     const puzzleGrid = document.getElementById('puzzle-grid');

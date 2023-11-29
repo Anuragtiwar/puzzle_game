@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Puzzle Game</title>
+</head>
+
+<body onload="shuffle()">
+    <h2>Puzzle Game</h2>
+    <div id="puzzle-container">
+        <div id="puzzle-grid"></div>
+        <footer>
+            <div id="move-counter">Moves: 0</div>
+            <button onclick="shuffle()">Shuffle</button>
+            <div id="max-move-container">Max-Moves: 20</div>
+        </footer>
+    </div>
+
+<!-- <div class="dialogBoxContainer">
+    <div class="dialogBox">
+        <h3>You win the game in "moveCounter"</h3>
+        <button style="width: 81px;">Ok</button>
+    </div>
+    <div class="dialogBox">
+        <h3>You Loss the game in "moveCounter"</h3>
+        <button style="width: 120px;">Try Again</button>
+    </div>
+</div> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
